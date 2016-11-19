@@ -1,0 +1,106 @@
+body {
+    background-color: rgba(191, 119, 127, 0.9);
+}
+
+/* fonts and sizing */
+@font-face {
+    font-family: "bringshoot";
+    src: url(../fonts/bringshoot.ttf) format("truetype");
+}
+
+h2 {
+    font-family: "bringshoot";
+    font-size: 2.2em;
+    text-align: center;
+}
+
+h3,
+h4,
+h5 {
+    font-family: 'ABeeZee', sans-serif;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+h4,
+h5 {
+    font-size: 1em;
+}
+
+p,
+li {
+    font-family: 'ABeeZee', sans-serif;
+}
+
+h3,
+h4,
+h5,
+p {
+    padding: 0 20px;
+}
+
+li {
+    list-style-type: circle;
+    padding: 5px;
+}
+
+/* list styles */
+nav li {
+    list-style-type: none;
+    display: inline;
+    text-decoration: none;
+    text-align: center;
+}
+
+#social li {
+    display: inline;
+    list-style-type: none;
+    padding: 5px;
+}
+
+#social img:hover {
+    opacity: 0.2;
+}
+
+/* images */
+#headshot,
+#logo {
+    width: 60%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+/* spans and hiddens */
+.hidden {
+    display: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* links */
+a:link,
+a:visited {
+    color: #fffff0;
+    text-decoration: none;
+}
+
+nav a:hover,
+a:hover {
+    color: #ff9496;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #fffff0;
+    text-decoration: none;
+}
