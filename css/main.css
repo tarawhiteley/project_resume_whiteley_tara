@@ -1,4 +1,4 @@
-body {
+html {
     background-color: #9c0063;
     color: #efd3e7;
 }
@@ -13,6 +13,7 @@ h2 {
     font-family: "bringshoot";
     font-size: 2.2em;
     text-align: center;
+    margin-top: 40px;
 }
 
 h3,
@@ -46,12 +47,12 @@ li {
     list-style-type: circle;
     padding: 5px;
     color: #efd3e7;
+    margin-left: 40px;
 }
 
 /* list styles */
 nav li {
     list-style-type: none;
-    display: inline;
     text-decoration: none;
     text-align: center;
 }
@@ -60,6 +61,7 @@ nav li {
     display: inline;
     list-style-type: none;
     padding: 5px;
+    margin: 0;
 }
 
 #social img:hover {
@@ -194,4 +196,61 @@ body {
     line-height: 35px;
     color: #ffffff;
     color: rgba(0, 0, 0, 0.4);
+}
+
+/* min-width 630px */
+
+@media (min-width: 630px) {
+    #headshot,
+    #logo {
+        width: 35%;
+    }
+
+    #headshot {
+        float: right;
+        padding: 5px;
+    }
+
+    #about,
+    #skills,
+    #experience,
+    #education,
+    #certifications,
+    #contact {
+        width: 85%;
+        margin: auto;
+    }
+
+    #skills {
+        clear: both;
+    }
+
+    #contact {
+        text-align: center;
+    }
+}
+
+@media (min-width: 800px) {
+    html {
+        background-image: url(../img/placeholder.jpg);
+        background-size: auto;
+        background-attachment: fixed;
+    }
+
+    #container {
+        width: 700px;
+        background-color: #9c0063;
+        opacity: 0.9;
+        margin: auto;
+    }
+
+    #about,
+    #skills,
+    #experience,
+    #education,
+    #certifications,
+    #contact {
+        width: 95%;
+        margin: auto;
+    }
 }
