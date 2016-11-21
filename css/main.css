@@ -180,7 +180,7 @@ body {
 .skillbar-bar {
     height: 35px;
     width: 0;
-    background: hsla(359,100%,79%,0.80);
+    background: hsla(359, 100%, 79%, 0.8);
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
