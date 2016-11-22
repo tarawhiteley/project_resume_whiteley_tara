@@ -90,9 +90,18 @@ nav li {
 
 /* aside */
 aside {
+    text-align: center;
+}
+
+aside img {
+    width: 10%;
+}
+
+/* footer */
+footer {
     font-size: 10px;
     text-align: center;
-	padding-top: 30px;
+    padding-top: 30px;
 }
 
 /* spans, hr and hiddens */
@@ -243,6 +252,10 @@ body {
     #skills {
         clear: both;
     }
+
+	aside img {
+		width: 50px;
+	}
 }
 
 /* min-width 800px */
