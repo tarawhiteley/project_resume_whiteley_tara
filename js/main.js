@@ -13,12 +13,12 @@ $(document).ready(function () {
 
     //custom JQuery fadein fadeout
     $('#logo').mouseenter(function () {
-        $('img').fadeout('slow');
+        $('img').fadeOut('slow');
     }
     );
 
     $('#logo').mouseleave(function () {
-        $('img').fadein('fast');
+        $('img').fadeIn('fast');
     }
     );
 }
