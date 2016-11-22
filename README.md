@@ -23,7 +23,16 @@
 - [Smooth Scroll](http://www.dwuser.com/education/content/quick-guide-adding-smooth-scrolling-to-your-webpages/)
 
     - I think every site should incorporate a smooth scroll, and this JQuery plugin added that to my site.
-    
+
+
+- [Custom Javascript](https://api.jquery.com)
+
+    - At first, I tried to do a mouseenter/mouseleave fadeIn and fadeOut effect, but as you mentioned in your email, that messed with the page elements and caused them to jump up when the pictures faded out.
+
+    - Next, I used a mouseenter/mouseleave effect that also combined the "this" tool and changed each h2 element to a gray color when the mouse moved over it. In order to make it slightly more different than your example in the homework assignment instructions, I also slightly increased the size when the mouse moved over the h2 element.
+
+    - I did use the jquery website for assistance with this coding.
+
 
 - [Color Combos](http://www.colorcombos.com/color-schemes/119/ColorCombo119.html)
 
@@ -33,4 +42,4 @@
 - I reviewed the list of deductions for this project and in the syllabus.
 
 #### Comments
-- I tried to use a theme similar to that of my overall personal website for my resume page, because my intention is to incorporate them together. You may notice that the color scheme is slightly different. On my personal webpage, the colors are broken up with background images. On this site, I did not incorporate images into the background so I felt it needed more variation in the color scheme.
+- I tried to use a theme similar to that of my overall personal website for my resume page, because my intention is to incorporate them together. You may notice that the color scheme is slightly different. On my personal webpage, the colors are broken up with background images. On this site, I did not incorporate images into the background (until 800px or larger) so I felt it needed more variation in the color scheme.
