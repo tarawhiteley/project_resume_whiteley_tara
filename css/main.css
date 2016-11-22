@@ -88,13 +88,17 @@ nav li {
     text-align: center;
 }
 
-/* aside */
-aside {
+/* arrow */
+.arrow {
     text-align: center;
 }
 
-aside img {
+.arrow img {
     width: 10%;
+}
+
+.arrow img:hover {
+    opacity: 0.5;
 }
 
 /* footer */
@@ -249,11 +253,11 @@ body {
         margin: auto;
     }
 
-    aside {
+    .arrow {
         clear: both;
     }
 
-    aside img {
+    .arrow img {
         width: 50px;
     }
 }
