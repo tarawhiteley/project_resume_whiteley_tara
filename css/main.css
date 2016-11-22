@@ -88,6 +88,13 @@ nav li {
     text-align: center;
 }
 
+/* aside */
+aside {
+    font-size: 10px;
+    text-align: center;
+	padding-top: 30px;
+}
+
 /* spans, hr and hiddens */
 .hidden {
     display: none;
