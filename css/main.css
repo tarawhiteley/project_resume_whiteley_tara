@@ -82,7 +82,7 @@ nav li {
     margin-top: 10px;
 }
 
-/* spans and hiddens */
+/* spans, hr and hiddens */
 .hidden {
     display: none;
 }
@@ -195,7 +195,13 @@ body {
     height: 35px;
     line-height: 35px;
     color: #ffffff;
-    color: rgba(0, 0, 0, 0.4);
+    color: rgba(0, 0, 0, 0.6);
+}
+
+/* custom jQuery effect */
+.hover {
+    color: hsla(359, 100%, 79%, 0.8);
+    font-size: 2.3em;
 }
 
 /* min-width 630px */
@@ -255,8 +261,4 @@ body {
         width: 95%;
         margin: auto;
     }
-
-/* custom jQuery effect */
-.hover {
-    color: gray;
 }
