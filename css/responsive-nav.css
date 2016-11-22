@@ -35,8 +35,6 @@
   -ms-user-select: none;
   -o-user-select: none;
   user-select: none;
-  margin: 20px 0 50px 10px;
-  padding-top: 20px;
 }
 
 /* my attempt */
@@ -55,4 +53,23 @@
   .nav-toggle {
     display: none;
   }
+
+  .nav-collapse li {
+      display: inline;
+      width: 100%;
+      font-family: "bringshoot";
+      font-size: 1.8em;
+      padding: 0 7px;
+  }
+
+  .nav-collapse ul {
+      text-align: center;
+      padding-top: 20px;
+  }
+}
+
+@media (min-width: 50em) {
+    .nav-collapse li {
+        font-size: 2.2em;
+    }
 }

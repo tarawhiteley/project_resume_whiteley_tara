@@ -55,6 +55,7 @@ nav li {
     list-style-type: none;
     text-decoration: none;
     text-align: center;
+    margin: 0;
 }
 
 #social li {
@@ -80,6 +81,11 @@ nav li {
 
 #logo {
     margin-top: 10px;
+}
+
+/* contact section */
+#contact {
+    text-align: center;
 }
 
 /* spans, hr and hiddens */
@@ -230,10 +236,6 @@ body {
     #skills {
         clear: both;
     }
-
-    #contact {
-        text-align: center;
-    }
 }
 
 /* min-width 800px */
@@ -246,7 +248,7 @@ body {
     }
 
     #container {
-        width: 700px;
+        width: 90%;
         background-color: #9c0063;
         opacity: 0.9;
         margin: auto;
