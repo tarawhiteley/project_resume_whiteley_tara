@@ -253,9 +253,9 @@ body {
         clear: both;
     }
 
-	aside img {
-		width: 50px;
-	}
+    aside img {
+        width: 50px;
+    }
 }
 
 /* min-width 800px */
@@ -268,10 +268,15 @@ body {
     }
 
     #container {
-        width: 90%;
+        width: 87%;
         background-color: #9c0063;
         opacity: 0.9;
         margin: auto;
+    }
+
+    #headshot,
+    #logo {
+        width: 25%;
     }
 
     #about,
@@ -280,7 +285,13 @@ body {
     #education,
     #certifications,
     #contact {
-        width: 95%;
+        width: 75%;
         margin: auto;
+    }
+}
+
+@media (min-width: 1000px) {
+    #container {
+        width: 75%;
     }
 }
