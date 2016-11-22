@@ -11,14 +11,14 @@ $(document).ready(function () {
     }
     );
 
-    //custom JQuery fadein fadeout
-    $('#logo').mouseenter(function () {
-        $('img').fadeOut('slow');
+    //custom JQuery mouseenter mouseleave
+    $('h2').mouseenter(function () {
+        $(this).addClass('hover');
     }
     );
 
-    $('#logo').mouseleave(function () {
-        $('img').fadeIn('fast');
+    $('h2').mouseleave(function () {
+        $(this).removeClass('hover');
     }
     );
 }
